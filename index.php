@@ -1,12 +1,22 @@
 <?php
 
 if (isset($_GET['type'])) {
-	if ($_GET['type'] == 'json') {
+	switch($_GET['type']) {
+	case 'json':
 		outputJSON();
-	}
-} elseif (isset($_GET['type']) && $_GET['type'] == 'text') {
-	if ($_GET['type'] == 'text') {
+		break;
+	case 'JSON':
+		outputJSON();
+		break;
+	case 'text':
 		outputTXT();
+		break;
+	case 'TEXT':
+		outputTXT();
+		break;
+	default:
+		outputTXT();
+		break;
 	}
 } else {
 	outputTXT();
