@@ -42,5 +42,5 @@ function outputJSON() {
 function outputTXT() {
 	header('Content-Type: text/plain');
 	$output = getIP();
-	echo $output;
+	echo $output . "\n";
 }
