@@ -1,4 +1,6 @@
-# echoip.xyz
+# echoip.xyz 
+
+[![Wakatime](https://wakatime.com/badge/user/7e1905d0-e3a0-4cd1-8818-1f7978dac4fb/project/9687dc49-1cff-4344-8f7a-666155f03214.svg)](https://wakatime.com/badge/user/7e1905d0-e3a0-4cd1-8818-1f7978dac4fb/project/9687dc49-1cff-4344-8f7a-666155f03214)
 
 **Echo your public IP address with a very simple cURL request**
 
