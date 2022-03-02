@@ -4,7 +4,13 @@
 
 ### Command: 
 ```sh
-curl https://<serveraddr>/
+curl https://echoip.xyz/
+```
+
+*or*
+
+```sh
+curl echoip.xyz
 ```
 
 ### Sample output:
@@ -20,9 +26,8 @@ curl https://<serveraddr>/
 
 
 
-## API parameters (optional):
+## Optional parameters:
 
-* All parameters are optional. *
 
 Set the GET parameter `type` to get a specific data format. Currently supported values are:
  - `JSON`
@@ -33,5 +38,5 @@ Please note that the `type` parameter is not case sensitive.
  Example:
 
  ```sh
-curl https://<serveraddr>/?type=JSON
+curl https://echoip.xyz/?type=JSON
 ```
