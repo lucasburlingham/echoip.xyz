@@ -1,4 +1,4 @@
-# EchoAPI
+# echoip.xyz
 
 **Echo your public IP address with a very simple cURL request**
 
