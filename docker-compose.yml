@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+    php:
+        container_name: php
+        image: php
+        restart: always
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: base
+        ports:
+            - "80:80" 

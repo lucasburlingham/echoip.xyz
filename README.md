@@ -42,3 +42,15 @@ Please note that the `type` parameter is not case sensitive.
  ```sh
 curl https://echoip.xyz/?type=JSON
 ```
+
+## Deploy with Docker
+
+Clone the repository and run the image:
+
+```sh
+git clone https://github.com/lucasburlingham/echoip.xyz
+cd echoip.xyz
+docker-compose up -d
+```
+
+If you want to use a different port, change the `.env` file to use a different port.
