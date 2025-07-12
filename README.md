@@ -49,7 +49,7 @@ Clone the repository and run the image:
 
 ```sh
 git clone https://github.com/lucasburlingham/echoip.xyz
-cd echoip.xyz
+cd echoip
 docker-compose up -d
 ```
 
