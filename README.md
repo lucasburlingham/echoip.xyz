@@ -1,4 +1,4 @@
-# echoip.xyz 
+# EchoIP 
 
 [![Wakatime](https://wakatime.com/badge/user/7e1905d0-e3a0-4cd1-8818-1f7978dac4fb/project/9687dc49-1cff-4344-8f7a-666155f03214.svg)](https://wakatime.com/badge/user/7e1905d0-e3a0-4cd1-8818-1f7978dac4fb/project/9687dc49-1cff-4344-8f7a-666155f03214)
 
@@ -6,13 +6,13 @@
 
 ### Command: 
 ```sh
-curl https://echoip.xyz/
+curl https://echoip.yourhostname.com/
 ```
 
 *or*
 
 ```sh
-curl echoip.xyz
+curl echoip.yourhostname.com
 ```
 
 ### Sample output:
@@ -40,7 +40,7 @@ Please note that the `type` parameter is not case sensitive.
  Example:
 
  ```sh
-curl https://echoip.xyz/?type=JSON
+curl https://echoip.yourhostname.com/?type=JSON
 ```
 
 ## Deploy with Docker
